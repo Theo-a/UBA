@@ -228,7 +228,11 @@ en "t". hace partes de "t", hace partes de "t" pero incluyendo al
 elemento en "e", asi este pasa a estar en todos esos subconjuntos,
 serian los subconjuntos donde esta ese primer elemento. luego une
 esto con el resto de partes.
-"""   
+"""
+"""
+para partes usar funciones. hay una biyeccion entre funciones.
+{0,1}**Y da funciones, en las que hay 1 pertenecen a partes.
+"""
 ej = [267,493,869,961,1000,1153,1246,1598,1766,1922]
 def ej1(X):
     P = partes(X)
