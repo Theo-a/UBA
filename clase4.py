@@ -261,7 +261,19 @@ n / ej2
 8 => 52
 9 => 104
 10 => 208
-conjetura; parece que para n > 7, es el doble del anterior
+11 => 412
+12 => 820
+13 => 1640
+14 => 3280
+15 => 6560
+16 => 13112
+17 => 26216  #anomalia, no cumple
+18 => 52432
+19 => 104864
+20 => 209728
+21 => 419440
+conjetura; parece que para n > 7, es el doble del anterior. cuando n es congruente a 1 mod 5 se rompe
+el patron del a(n) = 2*a(n-1).
 """
 
 
